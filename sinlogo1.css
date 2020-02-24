@@ -59,9 +59,6 @@ header .nav-home{
     align-items: center;
 }
 
-.slider .right-button {
-    transform: scale(-1);
-}
 
 .service {
     padding: 40px 40px;
@@ -73,10 +70,6 @@ header .nav-home{
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
     color: #767e9e;
     font-family: "Lato";
-
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 300;
 }
 
 .service p {
