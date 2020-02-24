@@ -5,7 +5,8 @@
 
 header {
     display: grid;
-    width: 1020px;
+    padding: 0 40px;
+    width: 940px;
     background-color: #2d303a;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 89px 6px;
@@ -26,6 +27,7 @@ header nav {
 
 header nav ul li {
     display: inline;
+    padding-left: 30px;
 }
 
 header nav ul li a{
@@ -38,6 +40,9 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #f06c64;
 }
+header .nav-home{
+    color: #f06c64;
+}
 
 .header-bottom {
     background-color: #323746;
@@ -46,7 +51,8 @@ header nav ul li a:hover{
 
 .slider {
     display: grid;
-    width: 1020px;
+    padding: 0 40px;
+    width: 940px;
     height: 600px;
     background-color: #ef6c64;
     grid-template-columns: 1fr 5fr 5fr 1fr;
@@ -58,9 +64,10 @@ header nav ul li a:hover{
 }
 
 .service {
+    padding: 40px 40px;
     display: grid;
     grid-gap: 20px;
-    width: 1020px;
+    width: 940px;
     height: 495px;
     background-color: #f2f2f2;
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr;
