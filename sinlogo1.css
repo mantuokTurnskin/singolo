@@ -40,9 +40,6 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #f06c64;
 }
-header .nav-home{
-    color: #f06c64;
-}
 
 .header-bottom {
     background-color: #323746;
@@ -85,14 +82,3 @@ header .nav-home{
 }
 
 
-.service .our-services-title {
-    grid-column: 1 / span 6;
-}
-.service .our-services-title h2 {
-    font-size: 30px;
-    color: #666d89;
-    font-weight: 900;
-}
-.service .our-services-title p{
-    font-size: 18px;
-}
