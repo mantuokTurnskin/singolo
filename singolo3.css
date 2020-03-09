@@ -9,6 +9,240 @@ body {
     background-color: #000000;
     font-family: "Lato";
     text-align: left;
-    margin: 0 auto;
+}
+
+
+
+
+
+/*  MAIN SECTION  */
+section.get-a-quote {
+    background-color: #f06c64;
+    color: #f0d8d9;
+    height: 648px;
+    padding: 0 40px;
+}
+
+section.get-a-quote header {
+    height: 200px;
+    padding-top: 68px;
+}
+
+section.get-a-quote header h2 {
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: 900;
+    padding-bottom: 27px;
+}
+
+section.get-a-quote header p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+
+
+/* WRAPPER  */
+section.get-a-quote div.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 17px;
+}
+
+/*  FORM  */
+section.get-a-quote div.wrapper div.form {
+    width: 630px;
+}
+
+section.get-a-quote div.wrapper div.form input,
+section.get-a-quote div.wrapper div.form textarea {
+    width: 620px;
+    height: 38px;
+    border: 1px solid #d6564f;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+    padding: 0 14px;
+    color: 
+
+}
+
+section.get-a-quote div.wrapper div.form div.textarea-input textarea {
+    height: 202px;
+    padding-top: 6px;
+}
+
+section.get-a-quote div.wrapper div.form input::-webkit-input-placeholder,
+section.get-a-quote div.wrapper div.form textarea::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+section.get-a-quote div.wrapper div.form input:-moz-placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+/*  ASIDE  */
+section.get-a-quote div.wrapper aside {
+    width: 310px;
+    padding-left: 10px;
+}
+
+section.get-a-quote div.wrapper aside h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+section.get-a-quote div.wrapper aside p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+section.get-a-quote div.wrapper aside div.contacts {
+    padding-top: 20px;
+}
+
+section.get-a-quote div.wrapper aside div.contacts div {
+    height: 22px;
+    display: flex;
+}
+
+section.get-a-quote div.wrapper aside div.contacts div.icon {
+    height: 22px;
+    flex-basis: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+}
+
+section.get-a-quote div.wrapper aside div.contacts div.text {
+    flex-basis: 290px;
+    display: block;
+    padding-left: 10px;
+}
+
+section.get-a-quote div.wrapper aside div.contacts div.location div.icon {
+    background-image: url("assets/images/contact-icon/location.png");
+}
+
+section.get-a-quote div.wrapper aside div.contacts div.phone div.icon {
+    background-image: url("assets/images/contact-icon/phone.png");
+}
+
+section.get-a-quote div.wrapper aside div.contacts div.mail div.icon {
+    background-image: url("assets/images/contact-icon/mail.png");
+}
+
+
+/*  SEPARATOR  */
+div.singolo3-block-separator {
+    height: 6px;
+    background-color: #ea676b;
+}
+
+
+
+
+
+/*  FOOTER   */
+footer {
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer div.copyright {
+    width: 820px;
+}
+
+footer div.copyright-img {
+    width: 92px;
+    height: 11px;
+    background-image: url("assets/images/copyright.png");
+    margin-left: 42px;
+}
+
+footer div.social-media {
+    display: flex;
+    width: 200px;
+    padding-left: 4px;
+    padding-right: 36px;
+}
+
+footer div.social-media div a div {
+    width: 34px;
+    height: 34px;
+    margin-right: 0;
+}
+
+footer div.social-media div.facebook a div {
+    background-image: url("assets/images/social-media/facebook.png");
+}
+
+footer div.social-media div.facebook a:hover div {
+    background-image: url("assets/images/social-media/facebook-hover.png");
+}
+
+footer div.social-media div.google-p a div {
+    background-image: url("assets/images/social-media/google.png");
+}
+
+footer div.social-media div.google-p a:hover div {
+    background-image: url("assets/images/social-media/google-hover.png");
+}
+
+footer div.social-media div.twitter a div {
+    background-image: url("assets/images/social-media/twitter.png");
+}
+
+footer div.social-media div.twitter a:hover div {
+    background-image: url("assets/images/social-media/twitter-hover.png");
+}
+
+footer div.social-media div.linked-in a div {
+    background-image: url("assets/images/social-media/linkedin.png");
+}
+
+footer div.social-media div.linked-in a:hover div {
+    background-image: url("assets/images/social-media/linkedin-hover.png");
+}
+
+
+
+
+/* FONTS */
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Thin.ttf) format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Regular.ttf) format('truetype');
+    font-weight: 400;
 }
 
