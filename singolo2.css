@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,17 +9,22 @@ body {
     background-color: #000000;
     font-family: "Lato";
     text-align: left;
+    margin: 0 auto;
 }
 
-header h2{
+header h2 {
     font-size: 30px;
     color: #666d89;
     font-weight: 900;
+    line-height: 30px;
 }
-header p{
+
+header p {
     font-size: 18px;
     color: #767e9e;
     font-weight: 300;
+    padding-top: 21px;
+    line-height: 30px;
 }
 
 
@@ -28,37 +33,210 @@ header p{
 
 article.portfolio {
     background-color: #2d303a;
-    padding: 0 40px;
+    padding: 63px 40px 67px 40px;
 }
 
-article.portfolio header nav ul li{
+article.portfolio header div.header-text {
+    height: 91px;
+}
+
+article.portfolio header nav {
+    padding-top: 0;
+    padding-left: 1px;
+    padding-bottom: 19px;
+}
+
+article.portfolio header nav ul li {
     display: inline-flex;
-    border: 1px solid white;
+    padding-right: 0px;
 }
 
-article.portfolio header nav ul li a{
+article.portfolio header nav ul li a {
     text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 500;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+    margin-right: 7px;
+    padding: 0 6px 0 6px;
 }
 
-article.portfolio section.images{
+article.portfolio header nav ul li a:hover,
+article.portfolio header nav ul li a.active {
+    border: 1px solid #c5c5c5;
+    color: #dedede;
+}
+
+article.portfolio section.images {
     display: grid;
     grid-template: repeat(3, 187px) / repeat(4, 220px);
     grid-gap: 20px 20px;
 }
-article.portfolio section.images div{
+
+#portfolio-img-01 {
+    background-image: url(assets/singolo2-portfolio-images/Project-01.png);
+    background-position: -8px -11px;
+}
+
+#portfolio-img-02 {
+    background-image: url(assets/singolo2-portfolio-images/Project-02.png);
+    background-position: -82px -43px;
+}
+
+#portfolio-img-03 {
+    background-image: url(assets/singolo2-portfolio-images/Project-03.png);
+    background-position: -11px -1px;
+}
+
+#portfolio-img-04 {
+    background-image: url(assets/singolo2-portfolio-images/Project-04.png);
+    background-position: -24px -2px;
+}
+
+#portfolio-img-05 {
+    background-image: url(assets/singolo2-portfolio-images/Project-05.png);
+    background-position: -10px -16px;
+}
+
+#portfolio-img-06 {
+    background-image: url(assets/singolo2-portfolio-images/Project-06.png);
+    background-position: -16px -4px;
+}
+
+#portfolio-img-07 {
+    background-image: url(assets/singolo2-portfolio-images/Project-07.png);
+    background-position: -31px -39px;
+}
+
+#portfolio-img-08 {
+    background-image: url(assets/singolo2-portfolio-images/Project-08.png);
+    background-position: -24px -32px;
+}
+
+#portfolio-img-09 {
+    background-image: url(assets/singolo2-portfolio-images/Project-09.png);
+    background-position: -16px -2px;
+}
+
+#portfolio-img-10 {
+    background-image: url(assets/singolo2-portfolio-images/Project-10.png);
+    background-position: -141px -113px;
+}
+
+#portfolio-img-11 {
+    background-image: url(assets/singolo2-portfolio-images/Project-11.png);
+    background-position: -144px -175px;
+}
+
+#portfolio-img-12 {
+    background-image: url(assets/singolo2-portfolio-images/Project-12.png);
+    background-position: -36px -60px;
+}
+
+
+article.portfolio section.images div {
     width: 220px;
     height: 187px;
 }
-article.portfolio section.images div img{
-    width: 100%;
-    height: 100%;
+
+article.portfolio section.images div img {
+
     margin: auto;
 }
 
+div.separator {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
 
 /*  ABOUT US  */
 
 article.about-us {
     background-color: #f2f2f2;
-    padding: 0 40px;
+    padding: 0 40px 70px 40px;
+}
+
+article.about-us header {
+    height: 218px;
+    padding-top: 62px;
+}
+
+article.about-us section.our-artists {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 20px;
+}
+
+article.about-us section.our-artists div.photo{
+    width: 300px;
+    height: 300px;
+}
+#adam-jensen {
+    background-image: url(assets/singolo2-about-us-images/adam-jensen.png);
+}
+#desmond-miles {
+    background-image: url(assets/singolo2-about-us-images/desmond-miles.png);
+}
+#scolara-visari {
+    background-image: url(assets/singolo2-about-us-images/scolara-visari.png);
+}
+
+article.about-us section.our-artists section.artist h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    padding: 17px 0 10px 0;
+    ;
+}
+
+article.about-us section.our-artists section.artist p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 120%;
+    width: 305px;
+}
+
+article.about-us div.social-media {
+    padding-top: 21px;
+}
+
+article.about-us div.social-media a {
+    padding-right: 3px;
+}
+
+/*   FONTS   */
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Thin.ttf) format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/Lato-Black.ttf) format('truetype');
+    font-weight: 900;
 }
