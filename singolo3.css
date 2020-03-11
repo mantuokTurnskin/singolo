@@ -59,7 +59,8 @@ section.get-a-quote div.wrapper div.form {
 }
 
 section.get-a-quote div.wrapper div.form input,
-section.get-a-quote div.wrapper div.form textarea {
+section.get-a-quote div.wrapper div.form textarea,
+section.get-a-quote div.wrapper div.form button {
     width: 620px;
     height: 38px;
     border: 1px solid #d6564f;
@@ -73,7 +74,19 @@ section.get-a-quote div.wrapper div.form textarea {
 
 section.get-a-quote div.wrapper div.form div.textarea-input textarea {
     height: 202px;
+    margin-bottom: 14px;
     padding-top: 6px;
+}
+section.get-a-quote div.wrapper div.form button{
+    width: 155px;
+    margin-left: 465px;
+    color: #f48c8f;
+}
+
+section.get-a-quote div.wrapper div.form button:hover{
+    color: #f0d8d9;
+    background-color: #c04a44;
+    border-color: #c04a44;
 }
 
 section.get-a-quote div.wrapper div.form input::-webkit-input-placeholder,
@@ -196,6 +209,10 @@ footer div.social-media div.facebook a div {
     background-image: url("assets/images/social-media/facebook.png");
 }
 
+footer div.social-media div a:hover div {
+border-radius: 17px;
+background-color: rgb(149, 163, 177);
+}
 footer div.social-media div.facebook a:hover div {
     background-image: url("assets/images/social-media/facebook-hover.png");
 }

@@ -43,7 +43,8 @@ header {
     align-items: center;
 }
 
-.header-title {
+.header-title,
+h1 {
     margin: 0;
     font-size: 25px;
     padding: 0 40px;
