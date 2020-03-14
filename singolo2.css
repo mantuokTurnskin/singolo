@@ -77,62 +77,62 @@ article.portfolio section.images {
 }
 
 #portfolio-img-01 {
-    background-image: url(assets/singolo2-portfolio-images/Project-01.png);
+    background-image: url(assets/images/portfolio-images/Project-01.png);
     background-position: -8px -11px;
 }
 
 #portfolio-img-02 {
-    background-image: url(assets/singolo2-portfolio-images/Project-02.png);
+    background-image: url(assets/images/portfolio-images/Project-02.png);
     background-position: -82px -43px;
 }
 
 #portfolio-img-03 {
-    background-image: url(assets/singolo2-portfolio-images/Project-03.png);
+    background-image: url(assets/images/portfolio-images/Project-03.png);
     background-position: -11px -1px;
 }
 
 #portfolio-img-04 {
-    background-image: url(assets/singolo2-portfolio-images/Project-04.png);
+    background-image: url(assets/images/portfolio-images/Project-04.png);
     background-position: -24px -2px;
 }
 
 #portfolio-img-05 {
-    background-image: url(assets/singolo2-portfolio-images/Project-05.png);
+    background-image: url(assets/images/portfolio-images/Project-05.png);
     background-position: -10px -16px;
 }
 
 #portfolio-img-06 {
-    background-image: url(assets/singolo2-portfolio-images/Project-06.png);
+    background-image: url(assets/images/portfolio-images/Project-06.png);
     background-position: -16px -4px;
 }
 
 #portfolio-img-07 {
-    background-image: url(assets/singolo2-portfolio-images/Project-07.png);
+    background-image: url(assets/images/portfolio-images/Project-07.png);
     background-position: -31px -39px;
 }
 
 #portfolio-img-08 {
-    background-image: url(assets/singolo2-portfolio-images/Project-08.png);
+    background-image: url(assets/images/portfolio-images/Project-08.png);
     background-position: -24px -32px;
 }
 
 #portfolio-img-09 {
-    background-image: url(assets/singolo2-portfolio-images/Project-09.png);
+    background-image: url(assets/images/portfolio-images/Project-09.png);
     background-position: -16px -2px;
 }
 
 #portfolio-img-10 {
-    background-image: url(assets/singolo2-portfolio-images/Project-10.png);
+    background-image: url(assets/images/portfolio-images/Project-10.png);
     background-position: -141px -113px;
 }
 
 #portfolio-img-11 {
-    background-image: url(assets/singolo2-portfolio-images/Project-11.png);
+    background-image: url(assets/images/portfolio-images/Project-11.png);
     background-position: -144px -175px;
 }
 
 #portfolio-img-12 {
-    background-image: url(assets/singolo2-portfolio-images/Project-12.png);
+    background-image: url(assets/images/portfolio-images/Project-12.png);
     background-position: -36px -60px;
 }
 
@@ -176,13 +176,13 @@ article.about-us section.our-artists div.photo{
     height: 300px;
 }
 #adam-jensen {
-    background-image: url(assets/singolo2-about-us-images/adam-jensen.png);
+    background-image: url(assets/images/about-us-images/adam-jensen.png);
 }
 #desmond-miles {
-    background-image: url(assets/singolo2-about-us-images/desmond-miles.png);
+    background-image: url(assets/images/about-us-images/desmond-miles.png);
 }
 #scolara-visari {
-    background-image: url(assets/singolo2-about-us-images/scolara-visari.png);
+    background-image: url(assets/images/about-us-images/scolara-visari.png);
 }
 
 article.about-us section.our-artists section.artist h3 {
